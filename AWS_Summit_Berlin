@@ -2,21 +2,21 @@
     MktoForms2.whenReady(function (form) {
     const oldElement = document.querySelector('.mktoRadioList');
 const newHtml = `<div class="mktoRadioList mktoHasWidth mktoRequired mktoInvalid" style="width: 150px;" aria-invalid="true">
-    <input name="eventRegType" id="mktoRadio_24223_0" value="test" aria-required="true"
+    <input name="eventRegType" id="mktoRadio_24223_0" value="Berlin" aria-required="true"
         aria-labelledby="LbleventRegType LblmktoRadio_24223_0 InstructeventRegType" type="radio" class="mktoField">
-    <label for="mktoRadio_24223_0" id="LblmktoRadio_24223_0">A1MER - 04/25</label>
+    <label for="mktoRadio_24223_0" id="LblmktoRadio_24223_0">Berlin</label>
 
-    <input name="eventRegType" id="mktoRadio_24223_1" value="EMEA" aria-required="true"
+    <input name="eventRegType" id="mktoRadio_24223_1" value="Washington DC" aria-required="true"
         aria-labelledby="LbleventRegType LblmktoRadio_24223_1 InstructeventRegType" type="radio" class="mktoField">
-    <label for="mktoRadio_24223_1" id="LblmktoRadio_24223_1">E1MEA - 04/27</label>
+    <label for="mktoRadio_24223_1" id="LblmktoRadio_24223_1">Washington DC</label>
 
-    <input name="eventRegType" id="mktoRadio_24223_1" value="EMEA" aria-required="true"
+    <input name="eventRegType" id="mktoRadio_24223_1" value="NYC" aria-required="true"
         aria-labelledby="LbleventRegType LblmktoRadio_24223_1 InstructeventRegType" type="radio" class="mktoField">
-    <label for="mktoRadio_24223_1" id="LblmktoRadio_24223_1">E1MEA - 04/27</label>
+    <label for="mktoRadio_24223_1" id="LblmktoRadio_24223_1">NYC</label>
 
-    <input name="eventRegType" id="mktoRadio_24223_1" value="EMEA" aria-required="true"
+    <input name="eventRegType" id="mktoRadio_24223_1" value="London" aria-required="true"
         aria-labelledby="LbleventRegType LblmktoRadio_24223_1 InstructeventRegType" type="radio" class="mktoField">
-    <label for="mktoRadio_24223_1" id="LblmktoRadio_24223_1">EM1EA - 04/27</label>
+    <label for="mktoRadio_24223_1" id="LblmktoRadio_24223_1">London</label>
 </div>`;
 if (oldElement) {
     const newElement = document.createElement('div');
