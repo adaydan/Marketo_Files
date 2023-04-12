@@ -14,7 +14,7 @@
                 aria-labelledby="LbleventRegType LblmktoRadio_24223_2 InstructeventRegType" type="radio" class="mktoField">
             <label for="mktoRadio_24223_2" id="LblmktoRadio_24223_2">NYC</label>
 
-            <input name="eventRegType" id="mktoRadio_24223_3" value="London" aria-required="true"
+            <input name="eventRegType" id="mktoRadio_24223_3" value="London11111111111111111" aria-required="true"
                 aria-labelledby="LbleventRegType LblmktoRadio_24223_3 InstructeventRegType" type="radio" class="mktoField">
             <label for="mktoRadio_24223_3" id="LblmktoRadio_24223_3">London</label>
         `;
