@@ -1,7 +1,7 @@
 (function () {
     MktoForms2.whenReady(function (form) {
     const oldElement = document.querySelector('.mktoRadioList');
-const newHtml = `<div class="mktoRadioList mktoHasWidth mktoRequired mktoInvalid" style="width: 150px;" aria-invalid="true">
+const newHtml = `<div class="mktoRadioList mktoHasWidth mktoRequired " style="width: 150px;">
     <input name="eventRegType" id="mktoRadio_24223_0" value="Berlin" aria-required="true"
         aria-labelledby="LbleventRegType LblmktoRadio_24223_0 InstructeventRegType" type="radio" class="mktoField">
     <label for="mktoRadio_24223_0" id="LblmktoRadio_24223_0">Berlin</label>
