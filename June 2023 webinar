@@ -1,0 +1,20 @@
+(function () {
+    MktoForms2.whenReady(function (form) {
+        const oldElement = document.querySelector('.mktoRadioList');
+        const newHtml = `
+            <input name="eventRegType" id="mktoRadio_24223_0" value="June 22, 2023 - 10:00 AM BRITISH STANDARD TIME" aria-required="true"
+                aria-labelledby="LbleventRegType LblmktoRadio_24223_0 InstructeventRegType" type="radio" class="mktoField">
+            <label for="mktoRadio_24223_0" id="LblmktoRadio_24223_0">June 22, 2023 - 10:00 AM BRITISH STANDARD TIME</label>
+
+            <input name="eventRegType" id="mktoRadio_24223_1" value="June 22, 2023 - 10:00 AM PACIFIC TIME" aria-required="true"
+                aria-labelledby="LbleventRegType LblmktoRadio_24223_1 InstructeventRegType" type="radio" class="mktoField">
+            <label for="mktoRadio_24223_1" id="LblmktoRadio_24223_1">June 22, 2023 - 10:00 AM PACIFIC TIME</label>
+        `;
+
+        if (oldElement) {
+            oldElement.innerHTML = newHtml.trim();
+        } else {
+            console.error('Element with class "mktoRadioList" not found')
+        }
+    });
+})();
